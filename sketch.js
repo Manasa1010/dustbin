@@ -13,7 +13,8 @@ function setup() {
 
  paper = new Paper(200,100);
  launcher = new Launcher(paper.body,{x:100,y:180});
- dustbin = new Dustbin(500,350,200,220);
+ dustbin = new Rect(500,350,200,220);
+floor=new Floor(800,390,1600,20);
  
  
 }
@@ -24,6 +25,7 @@ function draw() {
   paper.display();
   launcher.display();
  dustbin.display();
+ floor.display();
 
   drawSprites();
 }
