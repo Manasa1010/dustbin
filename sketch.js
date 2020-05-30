@@ -13,13 +13,13 @@ function setup() {
 
  paper = new Paper(200,100);
  launcher = new Launcher(paper.body,{x:100,y:180});
- dustbin = new Dustbin(500,350,120,150);
+ dustbin = new Dustbin(500,350,200,220);
  
  
 }
 
 function draw() {
-  background(0);  
+  background("blue");  
   Engine.update(engine);
   paper.display();
   launcher.display();
@@ -35,8 +35,4 @@ function mouseDragged(){
 function mouseReleased(){
   launcher.fly();
 }
-function keyPressed(){
-if(keyCode===32){
-  launcher.attach(paper.body)
-}
-}
+

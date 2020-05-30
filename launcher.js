@@ -13,10 +13,7 @@ class Launcher{
     fly(){
         this.sling.bodyA=null;
     }
-    attach(body){
-        this.sling.body=body;
-    }
-
+   
 
     display(){
         if(this.sling.bodyA){
