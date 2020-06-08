@@ -13,7 +13,7 @@ function setup() {
 
  paper = new Paper(200,100);
  launcher = new Launcher(paper.body,{x:100,y:180});
- dustbin = new Rect(500,350,200,220);
+ dustbin = new Rect(500,350,100,150);
 floor=new Floor(800,390,1600,20);
  
  
