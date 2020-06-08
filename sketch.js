@@ -26,6 +26,8 @@ function draw() {
   launcher.display();
  dustbin.display();
  floor.display();
+ 
+
 
   drawSprites();
 }
