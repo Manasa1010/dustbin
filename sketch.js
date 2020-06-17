@@ -13,8 +13,11 @@ function setup() {
 
  paper = new Paper(200,100);
  launcher = new Launcher(paper.body,{x:100,y:180});
- dustbin = new Rect(500,350,100,150);
+ rect2 = new Floor(500,350,20,100);
+
 floor=new Floor(800,390,1600,20);
+rect= new Floor(575,360,130,30);
+rect1=new Floor(650,350,20,100);
  
  
 }
@@ -24,7 +27,9 @@ function draw() {
   Engine.update(engine);
   paper.display();
   launcher.display();
- dustbin.display();
+ rect1.display();
+ rect2.display();
+ rect.display();
  floor.display();
  
 
