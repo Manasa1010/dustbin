@@ -3,10 +3,10 @@ class Rect{
         var options = {
             isStatic:true
         }
-        this.body = Bodies.rectangle(x, y, this.width, this.height, options);
+        this.body = Bodies.rectangle(x, y, width, height, options);
         this.width = width;
         this.height = height;
-        //this.image=loadImage("dustin.png.png");
+        this.image=loadImage("dustbin.png");
         World.add(world, this.body);
       }
       display(){
@@ -14,8 +14,8 @@ class Rect{
         push();
         translate(this.body.position.x, this.body.position.y);
         rotate(angle);
-        rectMode(CENTER);
-       rect(0,0,this.width,this.height);
+        imageMode(CENTER);
+       image(this.image,0,0,this.width,this.height);
         pop();
         rect(490,300,20,100);
         rect(510,360,140,30);
