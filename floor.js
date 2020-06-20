@@ -1,5 +1,5 @@
 class Floor{
-    constructor(x, y, width, height, angle) {
+    constructor(x, y, width, height) {
         var options = {
             isStatic:true
         }

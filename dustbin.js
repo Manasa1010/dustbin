@@ -17,9 +17,9 @@ class Rect{
         rectMode(CENTER);
        rect(0,0,this.width,this.height);
         pop();
-        rect(500,350,20,100);
-        rect(575,360,130,30);
-        rect(650,350,20,100);
+        rect(490,300,20,100);
+        rect(510,360,140,30);
+        rect(650,300,20,100);
  
       }
 }

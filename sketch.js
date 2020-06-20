@@ -16,7 +16,7 @@ function setup() {
 
 
 floor=new Floor(800,390,1600,20);
-rect=new Rect(500,height-80,20,100)
+rect1=new Rect(500,350,20,100)
  
 }
 
@@ -27,7 +27,7 @@ function draw() {
   launcher.display();
  //rect1.display();
  //rect2.display();
- rect.display();
+ rect1.display();
  floor.display();
  
 
